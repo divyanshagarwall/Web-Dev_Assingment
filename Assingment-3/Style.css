@@ -1,0 +1,102 @@
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.banner {
+  margin-top: 120px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100vh;
+
+  background: #add8e6;
+
+  color: white;
+  font-family: 40px Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 100vh;
+}
+#sec-1 {
+  display: flex;
+}
+#sec-1 .circles {
+  width: 250px;
+  height: 250px;
+  background-color: #daa520;
+  border-radius: 50%;
+  margin: 0px 0px 0px 40px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 40px;
+}
+#sec-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#sec-2 main {
+  width: 50%;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+}
+aside {
+  width: 48%;
+  height: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+aside .art {
+  width: 100%;
+  height: 150px;
+  background-color: #d2691e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+}
+
+#sec-3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+#sec-3 .box {
+  width: 20%;
+  height: 300px;
+  background-color: #ff4500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #dda0dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
