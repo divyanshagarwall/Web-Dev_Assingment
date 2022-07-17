@@ -1,0 +1,67 @@
+body {
+  background-image: url(https://moavietnam.com.vn/wp-content/uploads/2021/07/media-la-gii.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.material-icons {
+  font-size: 24px;
+  color: red;
+}
+
+#website {
+  width: 400px;
+  height: 300px;
+  display: flex;
+}
+
+#website iframe {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: cursive;
+  color: rgb(51, 68, 177);
+  margin-top: 0px;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(39, 207, 67);
+  font-family: cursive;
+  color: white;
+}
+
+audio {
+  margin-top: 10px;
+  margin-bottom: -15px;
+  margin-right: 10px;
+}
+
+.material-icons {
+  cursor: pointer;
+  border: 2px solid rgb(255, 0, 0);
+  width: 50px;
+  height: 50px;
+  margin-left: 500px;
+  border-radius: 50%;
+}
+
+.material-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+video {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+iframe {
+  margin-right: 20px;
+}

@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* #Some{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+} */
+#Header {
+  color: black;
+  width: 100%;
+  height: 100px;
+  /* height: 100px; */
+
+  /* border-width: 2px;
+    border-color: brown;
+    border-style: solid; */
+  /* border: 2px solid red; */
+  background-color: rgb(147, 176, 180);
+  /* text-align: center;
+    line-height: 100px; */
+  /* margin-bottom: 10px; */
+  position: sticky;
+  /* margin-bottom: 20px; */
+  top: 0;
+  /* bottom: 0; */
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 20px;
+  align-items: center;
+  /* display: none; */
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(155, 124, 124);
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/rolls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat*/
+  font-weight: bold;
+  color: white;
+}
+#logo:hover {
+  background-color: rgb(123, 123, 156);
+  color: white;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 30px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  box-shadow: 5px 5px 10px gray;
+  background-color: rgb(143, 179, 167);
+  color: black;
+  transform: scale(1);
+}
+.banner1 {
+  margin-top: 20px;
+  background-color: rgb(144, 197, 157);
+  width: 100%;
+  /* height: 100%; */
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  line-height: 100vh;
+  /* background-image: url(https://i.insider.com/61f4565945edd800183b3a87?width=1136&format=jpeg);
+    background-size: cover;
+    background-repeat: no-repeat */
+}
+#Sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Sec1 .circles {
+  width: 250px;
+  height: 250px;
+  background-color: chocolate;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 20px;
+  line-height: 250px;
+  transition: 1s;
+  /* background-image: url(../images/rolls.jpg);
+    background-size: cover;
+    background-repeat: no-repeat */
+}
+.Sec_1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px 20px;
+  /* background-color: darkred; */
+}
+#Sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Sec2 main {
+  width: 600px;
+  height: 500px;
+  background-color: rgb(116, 146, 187);
+
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 400px;
+  /* display: flex;
+    justify-content: center; */
+  text-align: center;
+}
+aside {
+  width: 50%;
+  height: 500px;
+  /* border: 2px solid red; */
+  margin: 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+aside .art {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(156, 194, 135);
+  /* margin-bottom: 23px */
+}
+#Sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#Sec3 .box {
+  width: 250px;
+  height: 250px;
+  background-color: chocolate;
+  display: inline-block;
+  text-align: center;
+  /* border-radius: 50%; */
+  margin: 20px;
+  line-height: 250px;
+  transition: 1s;
+}
+#Sec3 .box:hover {
+  /* border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+  box-shadow: 5px 5px 10px gray;
+  background-color: gold;
+  transform: scale(1.2);
+}
+#Sec1 .circles:hover {
+  /* border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+  box-shadow: 5px 5px 10px gray;
+  background-color: gold;
+  transform: scale(1.2);
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(212, 185, 169);
+
+  /* display: flex;
+    justify-content: center; */
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+}
+@media screen and (max-width: 782px) {
+  #Header {
+    height: max-content;
+  }
+  #logo {
+    margin: auto;
+  }
+
+  #Sec1 .circles {
+    margin: auto;
+  }
+
+  aside {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1091px) {
+  #Sec1 {
+    flex-direction: column;
+    margin: 20px;
+  }
+  #Sec1 .circles {
+    margin: 30px;
+  }
+  #Sec3 {
+    flex-direction: column;
+  }
+  #Sec2 {
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  #Sec2 main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 560px) {
+  nav ul li a {
+    font-size: x-small;
+    margin: 0px;
+  }
+  #Sec2 main {
+    width: 100%;
+  }
+  #logo {
+    width: 50px;
+    height: 50px;
+    font-size: initial;
+  }
+  aside {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 340px) {
+  nav ul li a {
+    padding-left: 5px;
+  }
+}
