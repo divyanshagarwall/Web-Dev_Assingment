@@ -64,17 +64,3 @@ function clearFormData() {
 }
 
 document.querySelectorAll(".btn")[0].onclick = sendData;
-
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyC-kVI1asoIdgrdQz38PuuAhaC6EUxT5Vw",
-  authDomain: "fir-2-app-1a842.firebaseapp.com",
-  databaseURL: "https://fir-2-app-1a842-default-rtdb.firebaseio.com",
-  projectId: "fir-2-app-1a842",
-  storageBucket: "fir-2-app-1a842.appspot.com",
-  messagingSenderId: "848477058505",
-  appId: "1:848477058505:web:e05a8cd8fcc5b26165e418",
-};
-
-const app = initializeApp(firebaseConfig);
